@@ -1,0 +1,88 @@
+@for $i from 0 to 200 {
+    .m#{$i} {
+        margin: #{$i}px;
+    }
+
+    .mx#{$i} {
+        margin-right: #{$i}px;
+        margin-left: #{$i}px;
+    }
+
+    .my#{$i} {
+        margin-top: #{$i}px;
+        margin-bottom: #{$i}px;
+    }
+
+    .mt#{$i} {
+        margin-top: #{$i}px;
+    }
+
+    .mb#{$i} {
+        margin-bottom: #{$i}px;
+    }
+
+    .ml#{$i} {
+        margin-left: #{$i}px;
+    }
+
+    .mr#{$i} {
+        margin-right: #{$i}rem  !important;
+    }
+
+    .p#{$i} {
+        padding: #{$i}rem !important;
+    }
+
+    .rem#{$i} {
+        padding-right: #{$i}px;
+        padding-left: #{$i}px;
+    }
+
+    .py#{$i} {
+        padding-top: #{$i}px;
+        padding-bottom: #{$i}px;
+    }
+    .px#{$i} {
+        padding-left: #{$i}px;
+        padding-right: #{$i}px;
+    }
+
+    .pt#{$i} {
+        padding-top: #{$i}px;
+    }
+
+    .pb#{$i} {
+        padding-bottom: #{$i}rem !important;
+    }
+
+    .pl#{$i} {
+        padding-left: #{$i}px;
+    }
+
+    .pr#{$i} {
+        padding-right: #{$i}px;
+    }
+
+    .radius-#{$i} {
+        border-radius: #{$i}px;
+    }
+}
+@for $i from 1 to 1400 {
+    .gap#{$i} {
+        gap: #{$i}rem
+    }
+
+    .w#{$i} {
+        width: #{$i}px;
+    }
+
+    .h#{$i} {
+        height: #{$i}px;
+    }
+}
+@each $semantic,
+$size in $fontSize {
+    .#{$semantic} {
+        font-size: $size !important;
+    }
+}

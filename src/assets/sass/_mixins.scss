@@ -1,0 +1,10 @@
+@mixin mask($img) {
+    -webkit-mask-image: url("../icons/"+ $img);
+    -webkit-mask-repeat: no-repeat;
+    -webkit-mask-size: contain;
+    -webkit-mask-position: 0 0;
+}
+
+@mixin noMask() {
+    -webkit-mask-image: none;
+}

@@ -1,0 +1,22 @@
+$icons: 'logo','logout'
+;
+
+.i {
+    display: inline-block;
+  
+    &-logo {
+      @include mask("logo.svg");
+    }
+  
+    @each $item in $icons {
+      &-#{$item} {
+        @include mask('#{$item}.svg');
+        width: 20px;
+        height: 20px;
+  
+        &:not([class*="bg-"]) {
+          background-color: #999;
+        }
+      }
+    }
+  }

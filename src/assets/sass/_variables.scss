@@ -1,0 +1,71 @@
+
+$primary: rgb(248, 96, 63);
+$primary_10p: rgb($primary, 0.1);
+$primary_20p: rgb($primary, 0.2);
+$primary_30p: rgb($primary, 0.3);
+$primary_50p: rgb($primary, 0.5);
+$primary_70p: rgb($primary, 0.7);
+$primary_light: rgb(239, 135, 113);
+$black: rgb(0, 0, 0);
+$black_10p: rgb($black, 0.1);
+$black_20p: rgb($black, 0.2);
+$black_30p: rgb($black, 0.3);
+$black_50p: rgb($black, 0.5);
+$black_70p: rgb($black, 0.7);
+$gray3: #333;
+$gray6: #666;
+$gray9: #999;
+$grayc: #ccc;
+$graye: #eee;
+$white: rgb(255, 255, 255);
+$white_10p: rgb($white, 0.1);
+$white_20p: rgb($white, 0.2);
+$white_30p: rgb($white, 0.3);
+$white_50p: rgb($white, 0.5);
+$white_70p: rgb($white, 0.7);
+
+$size12: 12px;
+$size14: 14px;
+$size16: 16px;
+$size18: 18px;
+$size19: 19px;
+$size20: 20px;
+$size24: 24px;
+$size32: 32px;
+
+
+$colors: ("primary" : $primary,
+  "primary_10p" : $primary_10p,
+  "primary_20p" : $primary_20p,
+  "primary_30p" : $primary_30p,
+  "primary_50p" : $primary_50p,
+  "primary_70p" : $primary_70p,
+  "primary_light" : $primary_light,
+  "black" : $black,
+  "black_10p" : $black_10p,
+  "black_20p" : $black_20p,
+  "black_30p" : $black_30p,
+  "black_50p" : $black_50p,
+  "black_70p" : $black_70p,
+  "gray3" : $gray3,
+  "gray6" : $gray6,
+  "gray9" : $gray9,
+  "grayc" : $grayc,
+  "graye" : $graye,
+  "white" : $white,
+  "white_10p" : $white_10p,
+  "white_20p" : $white_20p,
+  "white_30p" : $white_30p,
+  "white_50p" : $white_50p,
+  "white_70p" : $white_70p,
+);
+
+$fontSize: ("size12" : $size12,
+  "size14" : $size14,
+  "size16" : $size16,
+  "size18" : $size18,
+  "size19" : $size19,
+  "size20" : $size20,
+  "size24" : $size24,
+  "size32" : $size32,
+);
